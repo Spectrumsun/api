@@ -1,0 +1,10 @@
+<% include partials/header %>
+	<dir>
+		<h1>Welcome to the movie Page</h1>
+		<% data.forEach(function(movie){ %>
+			<li><%= movie["title"]%></li>
+
+		<% }); %>
+	</dir>
+
+<% include partials/footer %>
